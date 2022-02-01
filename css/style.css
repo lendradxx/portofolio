@@ -63,11 +63,18 @@
 .navmobile-item {
     color: rgb(161, 161, 161);
     transition: color ease-in-out 250ms;
+    -webkit-transition: color ease-in-out 250ms;
+    -moz-transition: color ease-in-out 250ms;
+    -o-transition: color ease-in-out 250ms;
+    text-decoration: none;
 }
 
 .navmobile-item:hover {
     color: white;
     transition: color ease-in-out 250ms;
+    -webkit-transition: color ease-in-out 250ms;
+    -moz-transition: color ease-in-out 250ms;
+    -o-transition: color ease-in-out 250ms;
 }
 
 /* Breakpoints style */
