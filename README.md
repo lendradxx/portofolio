@@ -1,3 +1,3 @@
-<h1 align="center">Simple Template Web Portofolio</h1>
+<h1 align="center">Template Web Portofolio</h1>
 
 Status: Coming Soon!
