@@ -60,6 +60,16 @@
     transition: color ease-in-out 250ms;
 }
 
+.navmobile-item {
+    color: rgb(161, 161, 161);
+    transition: color ease-in-out 250ms;
+}
+
+.navmobile-item:hover {
+    color: white;
+    transition: color ease-in-out 250ms;
+}
+
 /* Breakpoints style */
 
 /* Mobile Views */
