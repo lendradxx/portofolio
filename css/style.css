@@ -10,10 +10,45 @@
     display: none;
 }
 
+.activity-area {
+    border: 1px solid white;
+}
+
+.activity-name {
+    padding-top: 8px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 2%;
+}
+
+.activity-box-start {
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.activity-box-center {
+    border-top: 2px solid white;
+    border-left: .5px solid white;
+    border-right: .5px solid white;
+    border-bottom: 2px solid white;
+
+}
+
+.activity-box-end {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+}
+
 .footer-link {
     color: rgb(163, 163, 163);
     text-decoration: none;
     transition: color ease-in-out 250ms;
+}
+
+.bg-grey {
+    background-color: grey;
 }
 
 .about-name {
@@ -39,9 +74,22 @@
 }
 
 /* Ipad / Tablet Views */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .navbar-mobile {
         display: flex;
+    }
+
+    .activity-box-start {
+        border-bottom: none;
+    }
+
+    .activity-box-center {
+        border-bottom: none;
+        border-right: 2px solid white;
+    }
+
+    .activity-box-end {
+        border-left: 2px solid white;
     }
 
     #navbarDesktop {
@@ -61,7 +109,7 @@
 @media screen and (max-width: 1024px) {}
 
 /* Large screens / Desktop Views */
-@media screen and (max-width: 1200px) {}
+@media screen and (max-width: 1440px) {}
 
 /* Extra large screens / TV Views */
-@media screen and (min-width: 1201px) {}
+@media screen and (min-width: 1441px) {}
