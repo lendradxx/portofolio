@@ -11,12 +11,12 @@
 </head>
 <body>
     <header>
-        <div class="navbar-mobile navbar navbar-dark bg-dark">
+        <div class="d-lg-none d-md-flex d-flex navbar navbar-dark bg-dark">
             <div class="container">
                 <a href="#" class="navbar-brand mx-auto">Portofolio</a>
             </div>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbarDesktop">
+        <nav class="navbar navbar-expand-lg d-none d-sm-none dm-md-none d-lg-flex navbar-dark bg-dark" id="navbarDesktop">
             <div class="container">
                 <a href="#" class="navbar-brand fw-bold border-underline-center">Portofolio</a>
                 <ul class="navbar-nav ms-auto flex-row">
@@ -91,41 +91,34 @@
         </section>
         <!-- End Activities -->
         <!-- Album -->
-        <section id="about" class="bg-light">
-            <div class="container">
-                <div class="row py-4">
 
-                </div>
-            </div>
-        </section>
         <!-- End Album -->
     </main>
     <footer>
-        <div class="footer-desktop fixed-bottom text-center bg-dark text-white">
-            <div class="container pt-3">
-                <p>Created by <a href="https://github.com/lendradx" target="__blank" class="footer-link">@LendraDX</a>
-                </p>
-            </div>
-        </div>
-        <nav class="navbar navbar-dark fixed-bottom bg-dark shadow" id="navbarMobile">
-            <div class="container">
-                <div class="navbarmobile-nav flex-row d-flex mx-auto">
-                    <a href="#" class="navmobile-item border-underline-center flex-column d-flex">
-                        <i class="bi bi-person-circle text-center"></i>
-                        <span class="text-center">About</span>
+        <nav class="navbar navbar-dark d-lg-none fixed-bottom d-md-flex bg-dark shadow navbar-expand">
+            <ul class="navbar-nav nav-justified w-80 mx-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link flex-column d-flex">
+                        <i class="bi bi-person-circle"></i>
+                        About
                     </a>
-                    <a href="#" class="navmobile-item border-underline-center flex-column d-flex px-5">
-                        <i class="bi bi-activity text-center"></i>
-                        <span class="text-center">Activities</span>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link footer-link flex-column d-flex">
+                        <i class="bi bi-activity"></i>
+                        Activities
                     </a>
-                    <a href="#" class="navmobile-item border-underline-center flex-column d-flex">
-                        <i class="bi bi-image text-center"></i>
-                        <span class="text-center">Album</span>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link footer-link flex-column d-flex">
+                        <i class="bi bi-image"></i>
+                        Album
                     </a>
-                </div>
-            </div>
+                </li>
+            </ul>
         </nav>
     </footer>
+    <script src="/js/scripts.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.js"></script>
 </body>
 </html>
