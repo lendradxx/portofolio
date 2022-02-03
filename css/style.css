@@ -18,6 +18,10 @@
     width: 80% !important;
 }
 
+.h-80 {
+    height: 80% !important;
+}
+
 .activity-area {
     border: 1px solid white;
 }
@@ -74,8 +78,10 @@
     -o-transition: color ease-in-out 250ms;
 }
 
-.img-small {
-    width: 80%;
+.img-album {
+    border: 4px solid white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 4px black;
 }
 
 .text-small {
@@ -94,6 +100,17 @@
     transition: color 250ms ease-in-out;
 }
 
+.mt-100 {
+    margin-top: 100% !important;
+}
+
+.img-flipped-r-3d {
+    transform: perspective(1000px) rotateX(0deg) rotateY(-13.5deg) scale3d(1, 1, 1);
+}
+.img-flipped-l-3d {
+    transform: perspective(1000px) rotateX(0deg) rotateY(13.5deg) scale3d(1, 1, 1);
+}
+
 /* Breakpoints style */
 
 /* Mobile Views */
@@ -101,10 +118,29 @@
     .footer-desktop {
         display: none;
     }
+    .img-flipped-l-3d, .img-flipped-r-3d {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+
+    .activity-box-start {
+        border-bottom: none;
+        border-left: none;
+    }
+
+    .activity-box-center {
+        border-bottom: none;
+        border-right: none;
+    }
+
+    .activity-box-end {
+        border-left: none;
+        border-right: none;
+    }
+
 }
 
 /* Ipad / Tablet Views */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .navbar-mobile {
         display: flex;
     }
@@ -125,13 +161,29 @@
     .footer-desktop {
         display: none;
     }
+
+    .img-flipped-l-3d, .img-flipped-r-3d {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .img-flipped-l-3d, .img-flipped-r-3d {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
 }
 
 /* Small screens / Laptop Views */
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 1024px) {
+
+}
 
 /* Large screens / Desktop Views */
-@media screen and (max-width: 1440px) {}
+@media screen and (max-width: 1440px) {
+
+}
 
 /* Extra large screens / TV Views */
-@media screen and (min-width: 1441px) {}
+@media screen and (min-width: 1441px) {
+
+}
