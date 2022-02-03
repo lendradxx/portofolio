@@ -1,3 +1,10 @@
-<h1 align="center">Template Web Portofolio</h1>
+# Template Web Portofolio
 
-Status: In Progress!
+Template portofolio ini 80% gratis, dengan syarat jangan memperjual belikan kembali.\
+Kecuali dengan ijin oleh saya.
+
+
+## Framework
+CSS Framework: [!(https://getbootstrap.com/)](Bootstrap V5) 
+
+Status: Finishing!
