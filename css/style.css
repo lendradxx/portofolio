@@ -107,6 +107,7 @@
 .img-flipped-r-3d {
     transform: perspective(1000px) rotateX(0deg) rotateY(-13.5deg) scale3d(1, 1, 1);
 }
+
 .img-flipped-l-3d {
     transform: perspective(1000px) rotateX(0deg) rotateY(13.5deg) scale3d(1, 1, 1);
 }
@@ -118,6 +119,7 @@
     .footer-desktop {
         display: none;
     }
+
     .img-flipped-l-3d, .img-flipped-r-3d {
         transform: rotateX(0deg) rotateY(0deg);
     }
@@ -174,16 +176,10 @@
 }
 
 /* Small screens / Laptop Views */
-@media screen and (max-width: 1024px) {
-
-}
+@media screen and (max-width: 1024px) {}
 
 /* Large screens / Desktop Views */
-@media screen and (max-width: 1440px) {
-
-}
+@media screen and (max-width: 1440px) {}
 
 /* Extra large screens / TV Views */
-@media screen and (min-width: 1441px) {
-
-}
+@media screen and (min-width: 1441px) {}
